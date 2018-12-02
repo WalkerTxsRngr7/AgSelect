@@ -1,13 +1,40 @@
 body {
   background-color: white;
+  height:100%;
+}
+
+nav {
+  width:100%;
+  display:flex;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: rgb(2, 148, 69);
+  color: white;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+nav a, nav a:hover {
+  color: white;
+  padding: 10px;
+  text-decoration:none;
+}
+nav a:hover {
+  background-color: rgb(1, 101, 47);
+}
+nav img {
+  height:30px;
+  border-radius: 5px;
 }
 .categories {
-  width:95%;
-  height: 300px;
-  background-color: rgb(11, 163, 81);
-  display:flex;
-  justify-content: space-around;
-  margin:auto;
+  width:100%;
+  height: auto;
+  background-color: rgb(2, 148, 69);
+  padding: 10px 0px;
+}
+.categories img {
+  width:24%;
+  height:auto;
 }
 
 /* Rotating Images */
@@ -16,9 +43,6 @@ html{
   height: 100%;
 }
 
-body {
-    height:100%;
-}
 
 .demoWrapper {
   width: 680px;
@@ -35,7 +59,7 @@ body {
   color: #ddd;
   margin-right: 10px;
   font-family: Arial, Helvetica, Verdana;
-  position:realtive;
+  position:relative;
 }
 
 .box {
@@ -56,3 +80,11 @@ body {
   outline:0 solid transparent;
 }
 /* End of Rotating Images */
+
+
+
+@media screen and (max-width: 900px ){
+  .categories img {
+    width: 49%;
+  }
+}
