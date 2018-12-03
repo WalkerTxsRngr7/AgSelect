@@ -29,7 +29,7 @@ nav img {
 .categories {
   width:100%;
   height: auto;
-  background-color: rgb(2, 148, 69);
+  background-color: rgb(2, 148, 69); /*Place holder color for testing*/
   padding: 10px 0px;
 }
 .categories img {
