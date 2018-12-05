@@ -23,55 +23,24 @@
     <a href="contact.html">Contact</a>
   </nav>
   <!-- Rotating Images -->
-  <!-- https://codepen.io/anon/pen/RqEWZV -->
-  <div class="demoWrapper">
-    <div class="stage">
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-      <div class="box">
-        <img src="http://via.placeholder.com/285x285" width="285" height="285">
-      </div>
-    </div>
-  </div>
 
-  <div class="stage">
-
-
-  </div>
+    carousel-3d(:autoplay='true', :autoplay-timeout='2400')
+      slide(:index='0')
+        img(src='https://res.cloudinary.com/ameo/image/upload/v1498843587/kTcPaQR_x77hor.jpg')
+      slide(:index='1')
+        img(src='https://unsplash.it/400/300?image=456')
+      slide(:index='2')
+        img(src='https://unsplash.it/400/300?image=222')
+      slide(:index='3')
+        img(src='https://unsplash.it/400/300?image=1003')
+      slide(:index='4')
+        img(src='https://unsplash.it/400/300?image=940')
+      slide(:index='5')
+        img(src='https://unsplash.it/400/300?image=944')
+      slide(:index='6')
+        img(src='https://source.unsplash.com/mEr7U5yfYt8/400x300')
+      slide(:index='7')
+        img(src='https://unsplash.it/400/300?image=1041')
   <!-- End of Rotating Images -->
 
 
@@ -80,9 +49,9 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="javascript.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <script src="js.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js" charset="utf-8"></script>
+  <script src="https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js" charset="utf-8"></script>
 </body>
 
 </html>
