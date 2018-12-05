@@ -1,54 +1,120 @@
 body {
   background-color: white;
-  height:100%;
+  height: 100%;
 }
 
 nav {
-  width:100%;
-  display:flex;
-  position:fixed;
-  top:0;
-  left:0;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: rgb(2, 148, 69);
   color: white;
   justify-content: space-around;
   vertical-align: middle;
 }
+
 nav a, nav a:hover {
   color: white;
   padding: 10px;
-  text-decoration:none;
+  text-decoration: none;
 }
+
 nav a:hover {
   background-color: rgb(1, 101, 47);
 }
+
 nav img {
-  height:30px;
+  height: 30px;
   border-radius: 5px;
 }
-.categories {
+h1 {
+  color:black;
+  margin: 50px;
+  text-align:center;
+
+}
+/* .categories {
   width:100%;
   height: auto;
   background-color: rgb(2, 148, 69); /*Place holder color for testing*/
-  padding: 10px 0px;
+/* padding: 10px 0px;
 }
 .categories img {
   width:24%;
   height:auto;
+} */
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
+.grid2x2>div {
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+  background-color:red;
+
+}
+
+.grid2x2>div>div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: blue;
+  padding: 0px;
+  margin:0px;
+}
+
+.box {
+}
+
+.box1 {
+  border-right: 2px solid rgb(2, 148, 69);
+  border-bottom: 2px solid rgb(2, 148, 69);
+  padding: 0px 10px 10px 0px;
+  margin-top:0px;
+
+}
+
+.box2 {
+
+}
+
+.box3 {
+}
+
+.box4 {
+  border-top: 2px solid rgb(2, 148, 69);
+  border-left: 2px solid rgb(2, 148, 69);
+  padding: 10px 0px 0px 10px;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+/* .line-separator-ver {
+  width:5px;
+  height: 80%;
+  background-color: rgb(1, 101, 47);
+} */
 /* Rotating Images */
-
 .carousel-3d-slide {
-      height: auto !important;
-      background-color: rgba(0, 0, 0, 0.05) !important;
-    }
+  height: auto !important;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
 /* End of Rotating Images */
-
-
-
-@media screen and (max-width: 900px ){
+/* @media screen and (max-width: 900px ){
   .categories img {
     width: 49%;
   }
-}
+} */
