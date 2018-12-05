@@ -45,16 +45,20 @@ nav img {
 
 /* Rotating Images */
 
-
+#y {
+  display: flex;
+  justify-content: center;
+}
 .carContainer {
 
   width: 75%;
   position: relative;
-  perspective: 3000px;
+  perspective: 1000px;
   padding: 100px;
   left: 22.5%;
   box-sizing: border-box;
-  margin:auto;
+
+
 }
 
 
