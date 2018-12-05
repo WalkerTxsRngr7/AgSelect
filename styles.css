@@ -1,53 +1,134 @@
 body {
   background-color: white;
-  height:100%;
+  height: 100%;
 }
 
 nav {
-  width:100%;
-  display:flex;
-  position:fixed;
-  top:0;
-  left:0;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: rgb(2, 148, 69);
   color: white;
   justify-content: space-around;
   vertical-align: middle;
 }
+
 nav a, nav a:hover {
   color: white;
   padding: 10px;
-  text-decoration:none;
+  text-decoration: none;
 }
+
 nav a:hover {
   background-color: rgb(1, 101, 47);
 }
+
 nav img {
-  height:30px;
+  height: 30px;
   border-radius: 5px;
 }
+
 .categories {
-  width:100%;
+  width: 100%;
   height: auto;
-  background-color: rgb(2, 148, 69); /*Place holder color for testing*/
+  background-color: rgb(2, 148, 69);
+  /*Place holder color for testing*/
   padding: 10px 0px;
 }
+
 .categories img {
-  width:24%;
-  height:auto;
+  width: 24%;
+  height: auto;
 }
 
 /* Rotating Images */
 
-.carousel-3d-slide {
-      height: auto !important;
-      background-color: rgba(0, 0, 0, 0.05) !important;
-    }
+
+.carContainer {
+
+  width: 75%;
+  position: relative;
+  perspective: 3000px;
+  padding: 100px;
+  left: 22.5%;
+  box-sizing: border-box;
+  margin:auto;
+}
+
+
+
+#carousel {
+  position: relative;
+
+
+}
+#carousel img {
+  display: block;
+  animation: rotate 15000ms ease-in-out infinite;
+  position: absolute;
+  background-color: white;
+  padding: 0em;
+  text-align: center;
+  min-width: 66%;
+  -webkit-box-reflect: below 30px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.2)));
+}
+#carousel img:nth-child(0) {
+  animation-delay: -15000ms;
+}
+#carousel img:nth-child(1) {
+  animation-delay: -11250ms;
+}
+#carousel img:nth-child(2) {
+  animation-delay: -7500ms;
+}
+#carousel img:nth-child(3) {
+  animation-delay: -3750ms;
+}
+#carousel img:nth-child(4) {
+  animation-delay: 0ms;
+}
+#carousel img:nth-child(5) {
+  animation-delay: 3750ms;
+}
+#carousel img:nth-child(6) {
+  animation-delay: 7500ms;
+}
+@keyframes rotate {
+  0%, 20%, 99.7619%, 100% {
+    transform: rotateY(45deg) scale(0.6);
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    z-index: -1;
+    -webkit-filter: opacity(100%) blur(3px);
+  }
+  24.7619%, 45% {
+    transform: rotateY(0deg) scale(1);
+    right: 40%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    z-index: 100;
+    -webkit-filter: opacity(100%) blur(0px);
+  }
+  49.7619%, 70% {
+    transform: rotateY(-45deg) scale(0.6);
+    right: 81%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    z-index: -1;
+    -webkit-filter: opacity(100%) blur(3px);
+  }
+  74.7619%, 95% {
+    transform: rotateY(-90deg) scale(0);
+    right: 0%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    z-index: 0;
+    -webkit-filter: opacity(0%) blur(0px);
+  }
+}
+
+
 /* End of Rotating Images */
-
-
-
-@media screen and (max-width: 900px ){
+@media screen and (max-width: 900px) {
   .categories img {
     width: 49%;
   }
