@@ -2,6 +2,7 @@ body {
   background-color: white;
   height: 100%;
 }
+
 /*Nav bar*/
 nav {
   width: 100%;
@@ -14,28 +15,34 @@ nav {
   justify-content: space-around;
   vertical-align: middle;
   z-index: 2;
-  box-shadow: 0px 5px 30px -5px black; /*Shadow of nav bar. May or may not keep.*/
+  box-shadow: 0px 5px 30px -5px black;
+  /*Shadow of nav bar. May or may not keep.*/
 }
+
 nav a, nav a:hover {
   color: white;
   padding: 5px 20px;
   text-decoration: none;
 }
+
 nav a:hover {
   background-color: rgb(1, 101, 47);
 }
+
 nav img {
   height: 30px;
   border-radius: 5px;
 }
 
-
+/*End of Nav*/
+/*Slogan*/
 h1 {
   color: black;
   margin: 50px;
   text-align: center;
 }
 
+/*End of Slogan*/
 /*Categories pictures with hovering info*/
 .categories {
   display: flex;
@@ -47,11 +54,13 @@ h1 {
   text-align: center;
   flex-wrap: nowrap;
 }
+
 .categories img, .categories a {
   width: 100%;
   border-radius: 50%;
   box-sizing: border-box;
 }
+
 .overlay {
   position: absolute;
   top: 50%;
@@ -65,6 +74,7 @@ h1 {
   transition: .5s ease;
   background-color: rgba(71, 71, 71, 0.75);
 }
+
 .ctgContainer {
   position: relative;
   flex-basis: 300px;
@@ -73,10 +83,12 @@ h1 {
   max-width: 350px;
   margin: 15px;
 }
+
 .ctgContainer:hover .overlay {
   opacity: 1;
   border-radius: 50%;
 }
+
 .text {
   color: white;
   font-size: 1em;
@@ -90,31 +102,29 @@ h1 {
   opacity: 1;
 }
 
+/*End of Categories*/
 /* Rotating Images */
-
 #y {
   display: flex;
   justify-content: center;
+  position:relative;
 }
-.carContainer {
 
-  width: 75%;
-  position: relative;
+.carContainer {
+  width: 1000px;
+  position: absolute;
   perspective: 1000px;
   padding: 100px;
-  left: 22.5%;
+  padding-top:75px;
+  right: 0%;
   box-sizing: border-box;
-
-
+  background-color: blue;
 }
 
-
-
-#carousel {
+/* #carousel {
   position: relative;
+} */
 
-
-}
 #carousel img {
   display: block;
   animation: rotate 15000ms ease-in-out infinite;
@@ -122,30 +132,38 @@ h1 {
   background-color: white;
   padding: 0em;
   text-align: center;
-  min-width: 66%;
+  min-width: 30%;
   -webkit-box-reflect: below 30px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.2)));
 }
+
 #carousel img:nth-child(0) {
   animation-delay: -15000ms;
 }
+
 #carousel img:nth-child(1) {
   animation-delay: -11250ms;
 }
+
 #carousel img:nth-child(2) {
   animation-delay: -7500ms;
 }
+
 #carousel img:nth-child(3) {
   animation-delay: -3750ms;
 }
+
 #carousel img:nth-child(4) {
   animation-delay: 0ms;
 }
+
 #carousel img:nth-child(5) {
   animation-delay: 3750ms;
 }
+
 #carousel img:nth-child(6) {
   animation-delay: 7500ms;
 }
+
 @keyframes rotate {
   0%, 20%, 99.7619%, 100% {
     transform: rotateY(45deg) scale(0.6);
@@ -154,6 +172,7 @@ h1 {
     z-index: -1;
     -webkit-filter: opacity(100%) blur(3px);
   }
+
   24.7619%, 45% {
     transform: rotateY(0deg) scale(1);
     right: 40%;
@@ -161,13 +180,15 @@ h1 {
     z-index: 100;
     -webkit-filter: opacity(100%) blur(0px);
   }
+
   49.7619%, 70% {
-    transform: rotateY(-45deg) scale(0.6);
-    right: 81%;
+    transform: rotateY(-32deg) scale(0.6);
+    right: 80%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     z-index: -1;
     -webkit-filter: opacity(100%) blur(3px);
   }
+
   74.7619%, 95% {
     transform: rotateY(-90deg) scale(0);
     right: 0%;
@@ -177,6 +198,7 @@ h1 {
   }
 }
 
+/*End of Carousel*/
 @media (max-width: 1215px) {
   .ctgContainer {
     flex-basis: 50%;
