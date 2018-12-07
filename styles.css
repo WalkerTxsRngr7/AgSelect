@@ -19,11 +19,7 @@ nav {
 
 nav a, nav a:hover {
   color: white;
-<<<<<<< HEAD
-  padding: 10px;
-=======
   padding: 5px 20px;
->>>>>>> c1f480b65d2c7f05d0ddc895bad90005eba89e16
   text-decoration: none;
 }
 
@@ -36,7 +32,6 @@ nav img {
   border-radius: 5px;
 }
 
-<<<<<<< HEAD
 .categories {
   width: 100%;
   height: auto;
@@ -140,77 +135,6 @@ nav img {
 
 /* End of Rotating Images */
 @media screen and (max-width: 900px) {
-=======
-
-h1 {
-  color: black;
-  margin: 50px;
-  text-align: center;
-}
-
-/*Categories pictures with hovering info*/
-.categories {
-  display: flex;
-  width: 95%;
-  height: auto;
-  margin: auto;
-  flex-direction: row;
-  justify-content: space-around;
-  text-align: center;
-  flex-wrap: nowrap;
-}
-.categories img, .categories a {
-  width: 100%;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-.overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(71, 71, 71, 0.75);
-}
-.ctgContainer {
-  position: relative;
-  flex-basis: 300px;
-  min-width: 275px;
-  flex-grow: 1;
-  max-width: 350px;
-  margin: 15px;
-}
-.ctgContainer:hover .overlay {
-  opacity: 1;
-  border-radius: 50%;
-}
-.text {
-  color: white;
-  font-size: 1em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  opacity: 1;
-}
-
-/* Rotating Images */
-.carousel-3d-slide {
-  height: auto !important;
-  background-color: rgba(0, 0, 0, 0.05) !important;
-}
-
-/* End of Rotating Images */
-/* @media screen and (max-width: 900px ){
->>>>>>> c1f480b65d2c7f05d0ddc895bad90005eba89e16
   .categories img {
     width: 49%;
   }
