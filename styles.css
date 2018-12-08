@@ -36,6 +36,12 @@ h1 {
   text-align: center;
 }
 
+.slogan {
+  font-family: 'Norican', cursive;
+  font-weight: 600;
+  font-size: 3.2em;
+}
+
 /*Categories pictures with hovering info*/
 .categories {
   display: flex;
