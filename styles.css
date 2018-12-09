@@ -48,8 +48,8 @@ h1 {
 
 .slogan {
   font-family: 'Norican', cursive;
-  font-weight: 600;
-  font-size: 3.2em;
+  font-weight: 550;
+  font-size: 2.2em;
   text-shadow: 2px 2px 5px rgb(2, 148, 69);
 }
 
@@ -336,4 +336,24 @@ h1 {
     margin: 10px 0px;
     max-width: 75%;
   }
+}
+
+/* News Feed */
+.jumbotron {
+  box-shadow: 0px 5px 20px -5px rgb(2, 148, 69);
+  /* Or darkgreen? */
+}
+
+.newsFeed {
+  margin:auto;
+  width:70%;
+}
+
+.newsText {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.display-4 {
+  font-weight: 600;
 }
