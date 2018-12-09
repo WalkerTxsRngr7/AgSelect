@@ -22,7 +22,101 @@
     <a href="contact.html">Contact Us</a>
   </nav>
   <h1 class="slogan">"Premium Products at a Parallel Price"</h1>
+  <div class="regionMap">
+    <img src="images/regionalMap.jpg" alt="Midwest Region">
+  </div>
+  <div class="flexContainer">
+    <div class="flex1">
+      <div class="formContent">
+        <form class="container1" method="get" action="thankyou.html">
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01">First name</label>
+              <input type="text" class="form-control" name="First Name" id="validationDefault01" placeholder="First name" value="" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault02">Last name</label>
+              <input type="text" class="form-control" name="Last Name" id="validationDefault02" placeholder="Last name" value="" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefaultLocation">Location</label>
+              <input type="text" class="form-control" name="Location" id="validationDefaultLocation" placeholder="City, State" required>
+            </div>
+          </div>
 
+          <div class="form-row">
+            <div class="col-md-6 mb-0">
+              <label>Preferred Method of Contact:</label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefaultEmail">Email</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input position-static" type="radio" name="Preffered Contact Method" id="blankRadio1" value="Email" aria-label="...">
+              </div>
+              <input type="text" class="form-control" name="Email" id="validationDefaultEmail" placeholder="yourEmail@example.com" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationDefaultPhone">Phone</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input position-static" type="radio" name="Preffered Contact Method" id="blankRadio2" value="Phone" aria-label="...">
+              </div>
+              <input type="text" class="form-control" name="Phone Number" id="validationDefaultPhone" placeholder="888-888-8888" required>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Contact Me!</button>
+        </form>
+      </div>
+    </div>
+    <div class="contact">
+      <h5>
+        Better yet, see us in person!
+      </h5>
+      <p>
+        We love our customers, so feel free to stop by and visit us during business hours.
+      </p>
+      <h5>
+        Mid-America Food Hub & Training Center
+      </h5>
+      <p>
+        103 Harris Street
+      </p>
+      <p>
+        Pilot Grove, MO 65276
+      </p>
+      <p>
+        (660) 672-8515
+      </p>
+      <div class="hours">
+
+      </div>
+      <div class="accordion" id="accordionExample">
+        <!-- <div class="card"> -->
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Hours &nabla;
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Mon 9:00 am - 5:00 pm
+              Tue 9:00 am - 5:00 pm <br>
+              Wed 9:00 am - 5:00 pm <br>
+              Thu 9:00 am - 5:00 pm <br>
+              Fri 9:00 am - 5:00 pm <br>
+              Sat Closed <br>
+              Sun Closed
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
