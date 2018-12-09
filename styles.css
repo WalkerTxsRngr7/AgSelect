@@ -296,9 +296,10 @@ h1 {
 }
 
 /* News Feed */
-/* .jumbotron {
-  box-shadow: 0px 5px 20px -5px darkgreen;
-} */
+.jumbotron {
+  box-shadow: 0px 5px 20px -5px rgb(2, 148, 69);
+  /* Or darkgreen? */
+}
 
 .newsFeed {
   margin:auto;
