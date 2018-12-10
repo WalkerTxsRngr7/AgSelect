@@ -40,7 +40,7 @@ h1 {
   font-family: 'Norican', cursive;
   font-weight: 550;
   font-size: 2.2em;
-  text-shadow: 2px 2px 5px rgb(2, 148, 69);
+  text-shadow: 2px 2px 5px darkgreen;
 }
 
 /*Categories pictures with hovering info*/
@@ -104,12 +104,12 @@ h1 {
   justify-content: center;
 }
 .carContainer {
-
+  display: initial;
   width: 75%;
-  position: relative;
+  position: initial;
   perspective: 1000px;
   padding: 100px;
-  left: 22.5%;
+  left: 33%;
   box-sizing: border-box;
 }
 
@@ -297,8 +297,8 @@ h1 {
 
 /* News Feed */
 .jumbotron {
-  box-shadow: 0px 5px 20px -5px rgb(2, 148, 69);
-  /* Or darkgreen? */
+  box-shadow: 0px 5px 20px -5px darkgreen;
+
 }
 
 .newsFeed {
