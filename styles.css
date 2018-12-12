@@ -70,6 +70,10 @@ nav img {
   justify-content: flex-start;
 }
 
+.nav-linkSm {
+  padding-left: 25px;
+}
+
 .dropdown-menu {
   display: flex;
   width: 100vw;
@@ -359,6 +363,12 @@ h1 {
   color: rgb(2, 148, 69);
 }
 
+.about .fab {
+  padding-left: 10px;
+  font-size: 1.5em;
+  color: rgb(1, 101, 47);
+}
+
 .display-4 {
   font-weight: 600;
   text-shadow: 2px 2px 5px rgb(1, 101, 47);
@@ -448,6 +458,14 @@ footer a {
 
   .display-4 {
     font-size: 1.8em;
+  }
+
+  .abtContainerPrdcts h2 {
+    font-size: 1.8em;
+  }
+
+  .abtContainerPrdcts p {
+    font-size: 1em;
   }
 }
 
