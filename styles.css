@@ -417,6 +417,22 @@ footer a {
     flex: 0 0 200px;
     padding-top: 20px;
   }
+
+  .jumbotron img {
+    width: 75%;
+    height: auto;
+  }
+
+.jumbotron h1 {
+  margin: 10px;
+}
+
+.newsText {
+  font-size: 1em;
+}
+  .display-4 {
+    font-size: 1.5em;
+  }
 }
 
 @media (max-width: 820px) {
