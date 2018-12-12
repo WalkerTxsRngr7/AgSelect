@@ -125,6 +125,7 @@ h1 {
   transition: .8s ease;
   background-color: rgba(71, 71, 71, 0.75);
 }
+
 .text {
   color: white;
   font-size: 3.3em;
@@ -141,6 +142,7 @@ h1 {
   width: 85%;
   /* height: auto; */
 }
+
 .ctgContainer {
   position: relative;
   flex-basis: 300px;
@@ -154,9 +156,11 @@ h1 {
   opacity: 1;
   border-radius: 50%;
 }
+
 .ctgContainer:hover .text, ctgContainer:active .text {
   opacity: 0;
 }
+
 .overlayText {
   color: white;
   font-size: 1.2em;
@@ -168,7 +172,7 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center;
   opacity: 1;
-  width:65%;
+  width: 65%;
 }
 
 .desc {
@@ -278,7 +282,6 @@ h1 {
   font-family: 'Norican', cursive;
 }
 
-
 .regionMap {
   display: flex;
   justify-content: center;
@@ -326,6 +329,7 @@ h1 {
   margin: auto;
   width: 100%;
 }
+
 .lead {
   font-weight: 400;
 }
@@ -334,12 +338,13 @@ h1 {
   font-size: 1.3em;
   font-weight: 500;
 }
+
 .jumbotron p {
-  color:black;
+  color: black;
 }
 
 .jumbotron .fab {
-  padding-left:10px;
+  padding-left: 10px;
   font-size: 1.5em;
   color: rgb(2, 148, 69);
 }
@@ -423,13 +428,14 @@ footer a {
     height: auto;
   }
 
-.jumbotron h1 {
-  margin: 10px;
-}
+  .jumbotron h1 {
+    margin: 10px;
+  }
 
-.newsText {
-  font-size: 1em;
-}
+  .newsText {
+    font-size: 1em;
+  }
+
   .display-4 {
     font-size: 1.5em;
   }
@@ -449,9 +455,11 @@ footer a {
   .navMenu {
     display: flex;
   }
+
   .desc {
     display: inherit;
   }
+
   .text {
     font-size: 2.7em;
   }
@@ -461,7 +469,6 @@ footer a {
     align-items: center;
     /* padding:0px; */
   }
-
 
   footer div {
     flex: 1 1 50px;
