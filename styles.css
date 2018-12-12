@@ -77,6 +77,7 @@ nav img {
   flex-direction: column;
 }
 
+
 .dropdown-item {
   color: white;
 }
@@ -186,6 +187,16 @@ h1 {
   width: 90%;
   margin: auto;
   border-radius: 8px;
+}
+
+.abtContainerPrdcts {
+  background-color: rgb(1, 101, 47);
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .about {
