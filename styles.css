@@ -69,13 +69,13 @@ nav img {
   display: flex;
   justify-content: flex-start;
 }
+
 .dropdown-menu {
   display: flex;
   width: 100vw;
   background-color: rgb(2, 148, 69);
   flex-direction: column;
 }
-
 
 .dropdown-item {
   color: white;
@@ -214,6 +214,7 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px 5px black;
 }
+
 .about p {
   font-size: 1.5em;
 }
