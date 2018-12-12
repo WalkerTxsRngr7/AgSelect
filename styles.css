@@ -491,6 +491,9 @@ footer a {
   .text {
     font-size: 2.7em;
   }
+  .jumbotron .fab {
+    font-size: 1.1em;
+  }
 
   .footer {
     flex-direction: column;
