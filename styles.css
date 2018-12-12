@@ -341,6 +341,7 @@ h1 {
 
 .display-4 {
   font-weight: 600;
+  text-shadow: 2px 2px 5px rgb(1, 101, 47);
 }
 
 footer {
