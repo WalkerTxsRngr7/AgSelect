@@ -204,6 +204,9 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px 5px black;
 }
+.about p {
+  font-size: 1.5em;
+}
 
 .flexContainer {
   display: flex;
@@ -239,13 +242,6 @@ h1 {
   background-color: rgb(1, 101, 47);
   border-color: rgb(100, 100, 100);
   color: white;
-}
-
-.about h2 {
-  color: white;
-  font-size: 4em;
-  text-align: center;
-  text-shadow: 2px 2px 5px black;
 }
 
 .flexContainer {
