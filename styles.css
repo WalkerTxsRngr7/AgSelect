@@ -77,6 +77,7 @@ nav img {
   flex-direction: column;
 }
 
+
 .dropdown-item {
   color: white;
 }
@@ -188,6 +189,16 @@ h1 {
   border-radius: 8px;
 }
 
+.abtContainerPrdcts {
+  background-color: rgb(1, 101, 47);
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .about {
   background-color: rgb(2, 148, 69);
   margin: auto;
@@ -203,6 +214,9 @@ h1 {
   font-size: 4em;
   text-align: center;
   text-shadow: 2px 2px 5px black;
+}
+.about p {
+  font-size: 1.5em;
 }
 
 .flexContainer {
@@ -239,13 +253,6 @@ h1 {
   background-color: rgb(1, 101, 47);
   border-color: rgb(100, 100, 100);
   color: white;
-}
-
-.about h2 {
-  color: white;
-  font-size: 4em;
-  text-align: center;
-  text-shadow: 2px 2px 5px black;
 }
 
 .flexContainer {
