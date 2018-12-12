@@ -338,6 +338,11 @@ h1 {
   color:black;
 }
 
+.jumbotron .fab {
+  padding-left:10px;
+  font-size: 1.5em;
+  color: rgb(2, 148, 69);
+}
 
 .display-4 {
   font-weight: 600;
